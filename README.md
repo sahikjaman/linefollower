@@ -1,4 +1,5 @@
 PRARORO BOT
+
 Robot line follower yang dirancang agar dapat mengikuti lintasan apapun. Robot ini menggunakan berbagai komponen mekanik dan elektrik untuk menjalankan tugasnya dengan efisien. Tegangan keseluruhan operasi robot ini adalah 12 volt, yang diperoleh dari tiga baterai 18650 yang disusun secara seri dengan masing-masing baterai memiliki kapasitas 3000mAh.
 
 Robot ini dilengkapi dengan dua motor DC gearbox kuning, yang masing-masing beroperasi pada tegangan 3-10V. Motor ini memiliki kecepatan maksimum 200 rpm dan torsi 0.5 Nm, cukup untuk menggerakkan robot dengan stabil dan mampu mengangkut beban sekitar 500 gram. Motor-motor ini dihubungkan ke roda berdiameter 65 mm yang terbuat dari karet, memberikan cengkeraman yang baik dan stabilitas yang diperlukan saat mengikuti garis, dengan satu roda caster kecil untuk memberikan dukungan dan stabilitas tambahan.
