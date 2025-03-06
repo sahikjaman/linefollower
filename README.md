@@ -1,20 +1,20 @@
 PRARORO BOT
 ==
-Robot line follower yang dirancang agar dapat mengikuti lintasan apapun. Robot ini menggunakan berbagai komponen mekanik dan elektrik untuk menjalankan tugasnya dengan efisien. Tegangan keseluruhan operasi robot ini adalah 12 volt, yang diperoleh dari tiga baterai 18650 yang disusun secara seri dengan masing-masing baterai memiliki kapasitas 3000mAh.
+A line follower robot designed to follow any path. This robot uses various mechanical and electrical components to perform its tasks efficiently. The overall operating voltage of this robot is 12 volts, which is obtained from three 18650 batteries arranged in series with each battery having a capacity of 3000mAh.
 --
-Robot ini dilengkapi dengan dua motor DC gearbox kuning, yang masing-masing beroperasi pada tegangan 3-10V. Motor ini memiliki kecepatan maksimum 200 rpm dan torsi 0.5 Nm, cukup untuk menggerakkan robot dengan stabil dan mampu mengangkut beban sekitar 500 gram. Motor-motor ini dihubungkan ke roda berdiameter 65 mm yang terbuat dari karet, memberikan cengkeraman yang baik dan stabilitas yang diperlukan saat mengikuti garis, dengan satu roda caster kecil untuk memberikan dukungan dan stabilitas tambahan.
+The robot is equipped with two yellow DC gearbox motors, each operating at 3-10V. These motors have a maximum speed of 200 rpm and a torque of 0.5 Nm, enough to move the robot stably and carry a load of about 500 grams. These motors are connected to 65 mm diameter rubber wheels, providing good grip and the stability needed when following a line, with one small caster wheel to provide additional support and stability.
 
-Sistem kontrol robot menggunakan mikrokontroler Arduino nano yang mengimplementasikan algoritma if. Algoritma ini memastikan robot dapat mengikuti garis dengan presisi dan pergerakan yang halus. Untuk mendeteksi garis, robot ini menggunakan qtr-8 analog sensor yang memiliki 8 kanal input analog. Sensor-sensor ini mengirimkan data ke mikrokontroler, yang kemudian memproses data tersebut untuk mengatur kecepatan dan arah motor melalui driver motor L298N. Driver ini mampu menangani arus hingga 2 Ampere per channel, yang cukup untuk motor DC gearbox kuning yang digunakan.
+The robot control system uses an Arduino nano microcontroller that implements the if algorithm. This algorithm ensures that the robot can follow the line with precision and smooth movement. To detect the line, the robot uses a qtr-8 analog sensor that has 8 analog input channels. These sensors send data to the microcontroller, which then processes the data to control the speed and direction of the motor through the L298N motor driver. This driver is capable of handling up to 2 Amps per channel, which is sufficient for the yellow DC gearbox motor used.
 
-gambar desain robot
+robot design 
 
 ![Picture1](https://github.com/user-attachments/assets/02cf36f1-d2cb-430a-ac17-17eb0015c873)
 
-gambar lintasan
+track 
 
 ![Gambar WhatsApp 2024-08-28 pukul 20 09 01_316bd31c](https://github.com/user-attachments/assets/fe16a085-b4d6-4cfb-9972-e34e20b5341a)
 
-video
+robot on track
 
 https://www.youtube.com/shorts/tY2vrc1NZro
 
